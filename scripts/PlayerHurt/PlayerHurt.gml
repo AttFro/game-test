@@ -21,4 +21,5 @@ function PlayerHurt()
 function PlayerDeath()
 {
 	room_restart();
+	Darts = 50
 }

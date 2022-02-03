@@ -27,3 +27,4 @@ if (place_meeting(x + xVector, y, oWall))
 }
 
 x = x + xVector
+
