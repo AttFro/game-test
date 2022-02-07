@@ -35,3 +35,6 @@ levelTimer = 30;
 
 //Darts left
 Darts = 50;
+
+//Invincibiliy timer
+invTimer = 2
