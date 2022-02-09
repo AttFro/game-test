@@ -5,3 +5,5 @@ hp = 3;
 //timer
 shotTimer = 3;
 
+// dicides wether the spaceship can kill player or not
+canKillPlayer = false

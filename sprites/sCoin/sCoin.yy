@@ -26,6 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"8a3dc637-a832-4797-8c4a-2d560978f93c","path":"sprites/sCoin/sCoin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"8a3dc637-a832-4797-8c4a-2d560978f93c","path":"sprites/sCoin/sCoin.yy",},"LayerId":{"name":"70bc8a8c-18dd-41cd-9f65-04dc6db02847","path":"sprites/sCoin/sCoin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"8a3dc637-a832-4797-8c4a-2d560978f93c","path":"sprites/sCoin/sCoin.yy",},"LayerId":{"name":"eb52eb9b-90f7-4f9d-a4eb-7dbdffee342e","path":"sprites/sCoin/sCoin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"resourceVersion":"1.0","name":"8a3dc637-a832-4797-8c4a-2d560978f93c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -65,6 +66,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"eb52eb9b-90f7-4f9d-a4eb-7dbdffee342e","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"70bc8a8c-18dd-41cd-9f65-04dc6db02847","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,

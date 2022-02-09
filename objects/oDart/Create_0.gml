@@ -3,3 +3,5 @@
 
 x = oPlayer.x
 y = oPlayer.y
+isDart = true
+DartTimer = 50
