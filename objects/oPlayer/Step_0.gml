@@ -1,4 +1,9 @@
 //code that runs every frame
+
+Friction()
+xSpeed = xSpeed + xFriction
+
+
 if (isInvincible)
 {
 	invTimer -= 1/room_speed;

@@ -26,6 +26,7 @@
     {"id":{"name":"oEnemyPatrol","path":"objects/oEnemyPatrol/oEnemyPatrol.yy",},"order":8,},
     {"id":{"name":"oFlag","path":"objects/oFlag/oFlag.yy",},"order":9,},
     {"id":{"name":"oDart","path":"objects/oDart/oDart.yy",},"order":10,},
+    {"id":{"name":"Friction","path":"scripts/Friction/Friction.yy",},"order":5,},
     {"id":{"name":"sFlag","path":"sprites/sFlag/sFlag.yy",},"order":6,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
