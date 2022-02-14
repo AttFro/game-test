@@ -1,7 +1,5 @@
 //code that runs every frame
-
-Friction()
-xSpeed = xSpeed + xFriction
+helpfulTimer = helpfulTimer + 1
 
 
 if (isInvincible)
@@ -29,8 +27,23 @@ left = keyboard_check(vk_left);
 jump = keyboard_check_pressed(vk_space);
 //Horizontal movement
 xDirection = right - left;
-xVector = xSpeed * xDirection;
 
+//Hopfully rad friction stuff
+if (!x = 700) and (helpfulTimer > 100)
+{
+Friction()
+if (xDirection >= 0)
+{
+	xDirection = 1 + xFriction
+}
+
+if (xDirection < 0)
+{
+	xDirection = -1 + xFriction
+}
+}
+//creating xVector
+xVector = xSpeed * xDirection;
 //check to see if there is a wall, and if there is stop movement if there is not continue movement
 if(place_meeting(x + xVector, y, oWall))
 	{

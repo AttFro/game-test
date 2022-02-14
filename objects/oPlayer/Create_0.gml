@@ -38,3 +38,6 @@ Darts = 50;
 
 //Invincibiliy timer
 invTimer = 2
+
+//sets timer before friction can start
+helpfulTimer = 0
