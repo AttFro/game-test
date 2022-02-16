@@ -6,3 +6,4 @@ draw_text(64, 132, "points: " +string(global.points));
 draw_text(64, 164, "HP: " +string(oPlayer.hp));
 draw_text(64, 196, "Level Timer Remaining: " +string(floor(oPlayer.levelTimer)));
 draw_text(64, 230, ": " +string(oPlayer.Darts));
+draw_text(64, 264, ": "+string(oPlayer.timer/room_speed));

@@ -26,22 +26,47 @@ right = keyboard_check(vk_right);
 left = keyboard_check(vk_left);
 jump = keyboard_check_pressed(vk_space);
 //Horizontal movement
+if (AlwaysMove = false)
+{
 xDirection = right - left;
+}
 
 //Hopfully rad friction stuff
-if (!x = 700) and (helpfulTimer > 100)
-{
 Friction()
-if (xDirection >= 0)
+if (left = 1)
 {
+	AlwaysMove = true
+	if (AlwaysMove = true)
+	{
+	Friction()
 	xDirection = 1 + xFriction
+	AlwaysMove = true
+	}
+}
+else
+{
+	if(xDirection > 0.25) and (xDirection < 0.25)
+	{
+		AlwaysMove = false
+	}
+}
+if (right = 1)
+{
+	AlwaysMove = true
+	if (AlwaysMove = true)
+	{
+		
+		xDirection = xDirection / xFriction
+	}
+}
+else
+{
+	if(xDirection > 0.25) and (xDirection < 0.25)
+	{
+		AlwaysMove = false
+	}
 }
 
-if (xDirection < 0)
-{
-	xDirection = -1 + xFriction
-}
-}
 //creating xVector
 xVector = xSpeed * xDirection;
 //check to see if there is a wall, and if there is stop movement if there is not continue movement
@@ -93,5 +118,10 @@ if (y >= room_height)
 	PlayerDeath();
 }
 
+
+if (timer > 0)
+{
+	timer--;
+}
 
 

@@ -41,3 +41,7 @@ invTimer = 2
 
 //sets timer before friction can start
 helpfulTimer = 0
+
+AlwaysMove = false
+
+timer = 0
