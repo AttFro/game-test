@@ -30,42 +30,44 @@ if (AlwaysMove = false)
 {
 xDirection = right - left;
 }
-
-//Hopfully rad friction stuff
 Friction()
+//Hopfully rad friction stuff
+
 if (left = 1)
 {
 	AlwaysMove = true
 	if (AlwaysMove = true)
 	{
-	Friction()
-	xDirection = 1 + xFriction
+	
+	xDirection = xDirection - xFriction
 	AlwaysMove = true
 	}
 }
 else
 {
-	if(xDirection > 0.25) and (xDirection < 0.25)
+	if(xDirection > -0.25) and (xDirection < 0.25)
 	{
 		AlwaysMove = false
 	}
 }
-if (right = 1)
+if (xDirection > 0)
 {
+	
 	AlwaysMove = true
 	if (AlwaysMove = true)
 	{
 		
-		xDirection = xDirection / xFriction
+		xDirection = xDirection * xFriction
 	}
 }
 else
 {
-	if(xDirection > 0.25) and (xDirection < 0.25)
+	if(xDirection > -0.25) and (xDirection < 0.25)
 	{
 		AlwaysMove = false
 	}
 }
+
 
 //creating xVector
 xVector = xSpeed * xDirection;
@@ -82,8 +84,9 @@ if(place_meeting(x + xVector, y, oWall))
 		xVector = 0;
 	}
 	//otherwise move normal
+	
 x = x + xVector;
-
+	
 
 
 // vertical movement
