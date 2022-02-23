@@ -1,7 +1,8 @@
 //code that runs once when player is created
-
+//helpful for friction timer
+helpfulTimer = false
 //how many pixels per frame we want our player to move
-xSpeed = 4;
+xSpeed = 20;
 
 
 

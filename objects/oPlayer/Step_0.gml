@@ -1,5 +1,4 @@
 //code that runs every frame
-helpfulTimer = helpfulTimer + 1
 
 
 if (isInvincible)
@@ -30,29 +29,34 @@ if (AlwaysMove = false)
 {
 xDirection = right - left;
 }
-Friction()
+
 //Hopfully rad friction stuff
 
-if (left = 1)
+if (xDirection > 0)
 {
+	Friction()
 	AlwaysMove = true
 	if (AlwaysMove = true)
 	{
 	
-	xDirection = xDirection - xFriction
-	AlwaysMove = true
+	xDirection = xDirection * xFriction
 	}
 }
 else
 {
-	if(xDirection > -0.25) and (xDirection < 0.25)
+	if(xDirection > -0.05) and (xDirection < 0.05)
 	{
 		AlwaysMove = false
 	}
 }
-if (xDirection > 0)
+
+
+
+
+
+if (xDirection < 0)
 {
-	
+	Friction()
 	AlwaysMove = true
 	if (AlwaysMove = true)
 	{
@@ -62,7 +66,7 @@ if (xDirection > 0)
 }
 else
 {
-	if(xDirection > -0.25) and (xDirection < 0.25)
+	if(xDirection > -0.05) and (xDirection < 0.05)
 	{
 		AlwaysMove = false
 	}
@@ -122,9 +126,6 @@ if (y >= room_height)
 }
 
 
-if (timer > 0)
-{
-	timer--;
-}
+
 
 
