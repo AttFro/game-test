@@ -46,3 +46,5 @@ helpfulTimer = 0
 AlwaysMove = false
 
 timer = 0
+
+xFriction = 0.9
