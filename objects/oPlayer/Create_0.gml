@@ -47,4 +47,14 @@ AlwaysMove = false
 
 timer = 0
 
-xFriction = 0.9
+xFriction = 0.94
+
+enum states
+{
+	walking,
+	jumping
+}
+
+state = states.walking;
+enterShip = false;
+enteredShip = false

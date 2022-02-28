@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"StatePlayerWalking","path":"scripts/StatePlayerWalking/StatePlayerWalking.yy",},"order":8,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"oEnemyFollow","path":"objects/oEnemyFollow/oEnemyFollow.yy",},"order":7,},
@@ -9,6 +10,8 @@
     {"id":{"name":"EnemyHurt","path":"scripts/EnemyHurt/EnemyHurt.yy",},"order":1,},
     {"id":{"name":"sProjectile","path":"sprites/sProjectile/sProjectile.yy",},"order":5,},
     {"id":{"name":"SpaceshipAttack","path":"scripts/SpaceshipAttack/SpaceshipAttack.yy",},"order":4,},
+    {"id":{"name":"CheckInputs","path":"scripts/CheckInputs/CheckInputs.yy",},"order":7,},
+    {"id":{"name":"StatePlayerJumping","path":"scripts/StatePlayerJumping/StatePlayerJumping.yy",},"order":9,},
     {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},"order":2,},
     {"id":{"name":"oProjectile","path":"objects/oProjectile/oProjectile.yy",},"order":6,},
     {"id":{"name":"sSpaceship","path":"sprites/sSpaceship/sSpaceship.yy",},"order":8,},
@@ -16,6 +19,9 @@
     {"id":{"name":"SpaceshipXMovement","path":"scripts/SpaceshipXMovement/SpaceshipXMovement.yy",},"order":2,},
     {"id":{"name":"SpaceshipYMovement","path":"scripts/SpaceshipYMovement/SpaceshipYMovement.yy",},"order":3,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
+    {"id":{"name":"oFishBotSprite","path":"objects/oFishBotSprite/oFishBotSprite.yy",},"order":13,},
+    {"id":{"name":"sFishbot","path":"sprites/sFishbot/sFishbot.yy",},"order":9,},
+    {"id":{"name":"CheckCollisions","path":"scripts/CheckCollisions/CheckCollisions.yy",},"order":6,},
     {"id":{"name":"sDart","path":"sprites/sDart/sDart.yy",},"order":7,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":3,},
     {"id":{"name":"PlayerHurt","path":"scripts/PlayerHurt/PlayerHurt.yy",},"order":0,},
@@ -27,6 +33,7 @@
     {"id":{"name":"oFlag","path":"objects/oFlag/oFlag.yy",},"order":9,},
     {"id":{"name":"oDart","path":"objects/oDart/oDart.yy",},"order":10,},
     {"id":{"name":"Friction","path":"scripts/Friction/Friction.yy",},"order":5,},
+    {"id":{"name":"oFishbot","path":"objects/oFishbot/oFishbot.yy",},"order":12,},
     {"id":{"name":"sFlag","path":"sprites/sFlag/sFlag.yy",},"order":6,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
