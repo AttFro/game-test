@@ -7,12 +7,16 @@ function StatePlayerWalking()
 	//what does the state do?
 	CheckCollisionsX();
 	CheckCollisionsY();
-	if (xDirection > 0)
+	
+if (right > 0)
 {
 	AlwaysMove = true
 	if (AlwaysMove = true)
 	{
-		xDirection = xDirection * xFriction
+		xDirection = abs(xDirection) * xFriction
+		xDirection = xDirection + 0.01
+		//xDirection = xDirection * xFriction was here
+		//originally -0.05 and 0.05
 		if(xDirection > -0.05) and (xDirection < 0.05)
 		{
 			AlwaysMove = false
@@ -20,15 +24,24 @@ function StatePlayerWalking()
 	}
 }
 
-if (xDirection < 0)
+if (left > 0) 
 {
 	AlwaysMove = true
 	if (AlwaysMove = true)
-	{
-		xDirection = xDirection * xFriction
+	{	
+		xDirection = xDirection - 0.01
+		//xDirection = xDirection * xFriction was here
 		if(xDirection > -0.05) and (xDirection < 0.05)
 		{
 			AlwaysMove = false
+			if(xDirection > 0)
+			{
+				xDirection = abs(xDirection) / xFriction
+				if(xDirection < 0)
+				{
+					xDirection = abs(xDirection) * xFriction
+				}
+			}
 		}
 	}
 }

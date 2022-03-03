@@ -28,6 +28,7 @@
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":2,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":4,},
+    {"id":{"name":"TestScript","path":"scripts/TestScript/TestScript.yy",},"order":10,},
     {"id":{"name":"oHUD","path":"objects/oHUD/oHUD.yy",},"order":3,},
     {"id":{"name":"oEnemyPatrol","path":"objects/oEnemyPatrol/oEnemyPatrol.yy",},"order":8,},
     {"id":{"name":"oFlag","path":"objects/oFlag/oFlag.yy",},"order":9,},

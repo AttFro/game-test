@@ -1,8 +1,8 @@
 //code that runs once when player is created
 //helpful for friction timer
 helpfulTimer = false
-//how many pixels per frame we want our player to move
-xSpeed = 20;
+//how many pixels per frame we want our player to move, orginally 20
+xSpeed = 1.5;
 
 
 
@@ -46,8 +46,8 @@ helpfulTimer = 0
 AlwaysMove = false
 
 timer = 0
-
-xFriction = 0.94
+//originally 0.94
+xFriction = 1.015
 
 enum states
 {

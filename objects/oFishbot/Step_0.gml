@@ -2,13 +2,13 @@
 // You can write your code in this editor
 
 right = keyboard_check(vk_right);
-left = keyboard_check(vk_right);
-up = keyboard_check(vk_left);
-down = keyboard_check(vk_left);
+left = keyboard_check(vk_left);
+up = keyboard_check(vk_up);
+down = keyboard_check(vk_down);
 
-
-yVector = up - grv;
-
+yDirection = down - up
+yVector = ySpeed * yDirection + grv;
+xSpeed = 5
 xDirection = right - left
 xVector = xSpeed * xDirection;
 
@@ -42,3 +42,14 @@ x = x + xVector;
 	}
 	//otherwise move normal
 	y = y + yVector;
+	
+	if (isInvincible)
+{
+	invTimer -= 1/room_speed;
+	if invTimer <= 0 
+	{
+		isInvincible = false;
+		invTimer = 2;
+	}
+
+}

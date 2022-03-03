@@ -4,3 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
+yDirection = 0
+ySpeed = 5
