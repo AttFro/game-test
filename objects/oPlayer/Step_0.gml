@@ -1,7 +1,5 @@
 //code that runs every frame
-
-
-if(state == states.walking)
+if (state == states.walking)
 {
 	StatePlayerWalking();
 }
@@ -9,8 +7,6 @@ else if (state == states.jumping)
 {
 	StatePlayerJumping();
 }
-
-
 
 if (isInvincible)
 {
@@ -30,7 +26,7 @@ if (levelTimer <= 0)
 	Darts = 50;
 }
 
-
+camera_set_view_border(view_camera[0], 64, 64);
 
 //die in a pit and restart level
 if (y >= room_height)

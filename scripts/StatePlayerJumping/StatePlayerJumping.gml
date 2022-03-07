@@ -3,6 +3,9 @@
 function StatePlayerJumping()
 {
 	//what does the state do?
+
+	
+	
 	//if we are touching the ground or touching oWall and we press the jump key "jump"
 	if (place_meeting(x, y + 1, oWall) and (jump))
 {

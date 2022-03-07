@@ -2,7 +2,7 @@
 //helpful for friction timer
 helpfulTimer = false
 //how many pixels per frame we want our player to move, orginally 20
-xSpeed = 1.5;
+xSpeed = 1;
 
 
 
@@ -16,6 +16,7 @@ xVector = xSpeed * xDirection;
 yVector = 0;
 
 
+view_camera[0] = camera_create();
 
 //Setting gravity
 grv = 0.3;
@@ -47,12 +48,12 @@ AlwaysMove = false
 
 timer = 0
 //originally 0.94
-xFriction = 1.015
+xFriction = 1.025
 
 enum states
 {
 	walking,
-	jumping
+	jumping,
 }
 
 state = states.walking;

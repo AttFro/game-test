@@ -13,10 +13,15 @@ if (right > 0)
 	AlwaysMove = true
 	if (AlwaysMove = true)
 	{
-		xDirection = abs(xDirection) * xFriction
-		xDirection = xDirection + 0.01
-		//xDirection = xDirection * xFriction was here
-		//originally -0.05 and 0.05
+		if (xDirection > 0)
+		{
+			xDirection = xDirection * xFriction
+		}
+			if (xDirection < 0)
+			{
+				xDirection = xDirection / xFriction
+			}
+			
 		if(xDirection > -0.05) and (xDirection < 0.05)
 		{
 			AlwaysMove = false
@@ -29,28 +34,29 @@ if (left > 0)
 	AlwaysMove = true
 	if (AlwaysMove = true)
 	{	
-		xDirection = xDirection - 0.01
-		//xDirection = xDirection * xFriction was here
-		if(xDirection > -0.05) and (xDirection < 0.05)
+		if(xDirection < 0)
 		{
-			AlwaysMove = false
+			xDirection = xDirection * xFriction
+		}
 			if(xDirection > 0)
 			{
-				xDirection = abs(xDirection) / xFriction
-				if(xDirection < 0)
-				{
-					xDirection = abs(xDirection) * xFriction
-				}
+				xDirection = xDirection / xFriction
+			}
+			
+			//xDirection = xDirection * xFriction was here
+			if(xDirection > -0.05) and (xDirection < 0.05)
+			{
+				AlwaysMove = false
+
 			}
 		}
 	}
-}
 
 	//animations for the state
 	
 	//conditions for leaving state
-		if (place_meeting(x, y + 1, oWall) and (jump))
+	if (place_meeting(x, y + 1, oWall) and (jump))
 	{
-	state = states.jumping;
+		state = states.jumping;
 	}
 }
