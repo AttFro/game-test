@@ -26,7 +26,6 @@ if (levelTimer <= 0)
 	Darts = 50;
 }
 
-camera_set_view_border(view_camera[0], 64, 64);
 
 //die in a pit and restart level
 if (y >= room_height)

@@ -16,7 +16,7 @@ xVector = xSpeed * xDirection;
 yVector = 0;
 
 
-view_camera[0] = camera_create();
+
 
 //Setting gravity
 grv = 0.3;
@@ -59,3 +59,7 @@ enum states
 state = states.walking;
 enterShip = false;
 enteredShip = false
+
+cameraSize = 1.1
+cameraChangeX = 960
+cameraChangeY = 540
