@@ -7,7 +7,7 @@ if keyboard_check_pressed(vk_shift)
 	{
 	isDart = false
 	oPlayer.Darts = oPlayer.Darts - 1
-	var Dart = instance_create_layer(x, y, "Instances", oDart)
+	var Dart = instance_create_layer(x, y, "MoonRock1", oDart)
 		with (Dart)
 		{
 			speed = 6;
@@ -22,7 +22,7 @@ if instance_number(oSpaceship) > 0 and instance_number(oEnemyPatrol) <= 0 and(oP
 	{
 	isDart = false
 	oPlayer.Darts = oPlayer.Darts - 1
-	var Dart = instance_create_layer(x, y, "Instances", oDart)
+	var Dart = instance_create_layer(x, y, "MoonRock1", oDart)
 		with (Dart)
 		{
 			speed = 6;

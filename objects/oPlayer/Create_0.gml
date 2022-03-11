@@ -63,3 +63,5 @@ enteredShip = false
 cameraSize = 1.1
 cameraChangeX = 960
 cameraChangeY = 540
+throwable = true
+global.bDir = true

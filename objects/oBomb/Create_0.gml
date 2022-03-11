@@ -1,3 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-throwable = true
+xSpeed = 4
+if (global.bDir = true)
+{
+	x = x + xSpeed
+}
+if (global.bDir = false)
+{
+	x = x + xSpeed
+}

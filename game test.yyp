@@ -24,6 +24,7 @@
     {"id":{"name":"oFishBotSprite","path":"objects/oFishBotSprite/oFishBotSprite.yy",},"order":13,},
     {"id":{"name":"sFishbot","path":"sprites/sFishbot/sFishbot.yy",},"order":9,},
     {"id":{"name":"oBomb","path":"objects/oBomb/oBomb.yy",},"order":15,},
+    {"id":{"name":"BadMovement","path":"scripts/BadMovement/BadMovement.yy",},"order":11,},
     {"id":{"name":"CheckCollisions","path":"scripts/CheckCollisions/CheckCollisions.yy",},"order":6,},
     {"id":{"name":"sDart","path":"sprites/sDart/sDart.yy",},"order":7,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":3,},
