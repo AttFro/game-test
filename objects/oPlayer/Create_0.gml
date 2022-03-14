@@ -59,9 +59,14 @@ enum states
 state = states.walking;
 enterShip = false;
 enteredShip = false
-
+global.stone = room_add();
+global.grass = room_add();
+global.casle = room_add();
+global.dungeon = room_add();
+global.lava = room_add();
 cameraSize = 1.1
 cameraChangeX = 960
 cameraChangeY = 540
-throwable = true
 global.bDir = true
+global.bStay = false
+roomArray = ["stone", "grass", "casle", "dungeon", "lava"];

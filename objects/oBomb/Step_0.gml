@@ -4,6 +4,18 @@ right = keyboard_check(vk_right);
 left = keyboard_check(vk_left);
 jump = keyboard_check_pressed(vk_space);
 
+if(global.bDir = true)
+{
+	
+	y = y + yVector
+	x = x + 3
+}
 
-
+if(global.bDir = false)
+{
+	
+	y = y + yVector
+	x = x - 3
+}
+	yVector = yVector + 0.1
 

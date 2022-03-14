@@ -32,11 +32,11 @@ if (y >= room_height)
 {
 	PlayerDeath();
 }
-if (right)
+if (right) and (global.bStay = false)
 {
 	global.bDir = true
 }
-if (left)
+if (left) and (global.bStay = false)
 {
 	global.bDir = false
 }
