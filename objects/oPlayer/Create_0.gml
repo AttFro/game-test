@@ -55,15 +55,14 @@ enum states
 	walking,
 	jumping,
 }
-
+global.BackgroundLayer = layer_create(100);
+global.TrueBackgroundLayer = layer_background_create(global.BackgroundLayer, sBomb)
 state = states.walking;
 enterShip = false;
 enteredShip = false
-global.stone = room_add();
-global.grass = room_add();
-global.casle = room_add();
-global.dungeon = room_add();
-global.lava = room_add();
+stone = room_add();
+room_set_width(stone, 640);
+room_set_height(stone, 480);
 cameraSize = 1.1
 cameraChangeX = 960
 cameraChangeY = 540
