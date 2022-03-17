@@ -10,6 +10,7 @@
     {"id":{"name":"EnemyHurt","path":"scripts/EnemyHurt/EnemyHurt.yy",},"order":1,},
     {"id":{"name":"sProjectile","path":"sprites/sProjectile/sProjectile.yy",},"order":5,},
     {"id":{"name":"SpaceshipAttack","path":"scripts/SpaceshipAttack/SpaceshipAttack.yy",},"order":4,},
+    {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},"order":15,},
     {"id":{"name":"sSightItem","path":"sprites/sSightItem/sSightItem.yy",},"order":13,},
     {"id":{"name":"CheckInputs","path":"scripts/CheckInputs/CheckInputs.yy",},"order":7,},
     {"id":{"name":"StatePlayerJumping","path":"scripts/StatePlayerJumping/StatePlayerJumping.yy",},"order":9,},

@@ -40,7 +40,7 @@ if (left) and (global.bStay = false)
 {
 	global.bDir = false
 }
-camera_set_view_pos(view_camera[0], oPlayer.x, oPlayer.y)
+camera_set_view_pos(view_current, oPlayer.x, oPlayer.y)
 
 
 

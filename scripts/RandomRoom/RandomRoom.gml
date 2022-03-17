@@ -9,9 +9,10 @@ if (randomNumber >= 0)
 	room_instance_add(stone, 1, 200, oWall)
 	room_instance_add(stone, 60, 200, oWall)
 	room_instance_add(stone, 120, 200, oWall)
-	layer_background_create(global.BackgroundLayer, sBomb)
-	layer_background_xscale(global.TrueBackgroundLayer, -10)
+	layer_background_create(global.BackgroundLayer, sBackground)
+	//layer_background_xscale(global.TrueBackgroundLayer, -100)
 	camera_set_default(view_camera[0])
+	
 	
 }
 /*if (randomNumber = 1)

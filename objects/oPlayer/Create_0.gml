@@ -46,7 +46,7 @@ helpfulTimer = 0
 
 AlwaysMove = false
 
-timer = 0
+
 //originally 0.94
 xFriction = 1.025
 
@@ -56,13 +56,13 @@ enum states
 	jumping,
 }
 global.BackgroundLayer = layer_create(100);
-global.TrueBackgroundLayer = layer_background_create(global.BackgroundLayer, sBomb)
+global.TrueBackgroundLayer = layer_background_create(global.BackgroundLayer, sBackground)
 state = states.walking;
 enterShip = false;
 enteredShip = false
 stone = room_add();
-room_set_width(stone, 640);
-room_set_height(stone, 480);
+room_set_width(stone, 1280);
+room_set_height(stone, 960);
 cameraSize = 1.1
 cameraChangeX = 960
 cameraChangeY = 540
