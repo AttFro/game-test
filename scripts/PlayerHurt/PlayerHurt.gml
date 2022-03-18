@@ -20,6 +20,6 @@ function PlayerHurt()
 function PlayerDeath()
 {
 	room_restart();
-	oSpaceship.canKillPlayer = false
+	//oSpaceship.canKillPlayer = false
 	Darts = 50
 }
