@@ -32,6 +32,7 @@
     {"id":{"name":"CheckCollisions","path":"scripts/CheckCollisions/CheckCollisions.yy",},"order":6,},
     {"id":{"name":"sDart","path":"sprites/sDart/sDart.yy",},"order":7,},
     {"id":{"name":"RoomCreationLava","path":"scripts/RoomCreationLava/RoomCreationLava.yy",},"order":17,},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":16,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":3,},
     {"id":{"name":"PlayerHurt","path":"scripts/PlayerHurt/PlayerHurt.yy",},"order":0,},
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":2,},

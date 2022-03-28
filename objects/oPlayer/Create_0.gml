@@ -15,8 +15,8 @@ xVector = xSpeed * xDirection;
 
 yVector = 0;
 
-
-
+//Camera set
+stoneCamera = false
 
 //Setting gravity
 grv = 0.3;
