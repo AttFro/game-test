@@ -16,7 +16,7 @@ xVector = xSpeed * xDirection;
 yVector = 0;
 
 //Camera set
-stoneCamera = false
+
 
 //Setting gravity
 grv = 0.3;
@@ -55,17 +55,13 @@ enum states
 	walking,
 	jumping,
 }
-global.BackgroundLayer = layer_create(100);
-layer_background_create(global.BackgroundLayer, sBackground)
+
 state = states.walking;
 enterShip = false;
 enteredShip = false
-stone = room_add();
-room_set_width(stone, 2560);
-room_set_height(stone, 1920);
-cameraSize = 1.1
-cameraChangeX = 960
-cameraChangeY = 540
+//cameraSize = 1.1
+//cameraChangeX = 960
+//cameraChangeY = 540
 global.bDir = true
 global.bStay = false
 

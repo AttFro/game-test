@@ -4,18 +4,27 @@ function RandomRoom(){
 randomNumber = random_range(0, 4);
 if (randomNumber >= 0)
 {
+	stone = room_add();
+	room_set_width(stone, 2560);
+	room_set_height(stone, 1920);
+	room_set_persistent(stone, false);
 	room_goto(stone)
-	room_instance_add(stone, 50, 1, oPlayer)
-	stoneCamera = true
-	camera_destroy(view_camera[0]);
-	view_camera[0] = camera_create_view(1, 1, 128, 128, 0, oPlayer, -1, -1, 64, 64);
+	//room_instance_add(stone, 50, 1, oPlayer)
+	//stoneCamera = true
+	//camera_destroy(view_camera[0]);
+	//view_camera[0] = camera_create_view(1, 1, 128, 128, 0, oPlayer, -1, -1, 64, 64);
 
-	view_set_visible(0, true);
+	//view_set_visible(0, true);
 	
 	
 	
 	//camera_set_view_target(view_camera[0], oPlayer);
 	//camera_set_view_border(view_camera[0], 128, 128);
+	room_restart()
+	oPlayer.x = room_width / 2
+	oPlayer.y = room_height / 2
+	global.BackgroundLayer = layer_create(100);
+	layer_background_create(global.BackgroundLayer, sBackground)
 	room_instance_add(stone, 1, 200, oWall)
 	room_instance_add(stone, 60, 200, oWall)
 	room_instance_add(stone, 120, 200, oWall)
@@ -27,7 +36,7 @@ if (randomNumber >= 0)
 	room_instance_add(stone, 480, 550, oWall)
 	room_instance_add(stone, 540, 550, oWall)
 	layer_background_create(global.BackgroundLayer, sBackground)
-	camera_set_default(view_camera[0])
+	//camera_set_default(view_camera[0])
 	//camera_set_view_size(view_camera[0], 64, 64);
 	
 	
