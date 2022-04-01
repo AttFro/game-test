@@ -5,8 +5,8 @@ camera_set_view_size(view,view_width,view_height);
 
 if(instance_exists(oPlayer))
 {
-	var _x = clamp(oPlayer.x-view_width/2,0,2560-view_width);
-	var _y = clamp(oPlayer.y-view_height/2,0,1920-view_height);
+	var _x = clamp(oPlayer.x-view_width/2,0,room_width-view_width);
+	var _y = clamp(oPlayer.y-view_height/2,0,room_height-view_height);
 	camera_set_view_pos(view,_x,_y);
 	
 	var _cur_x = camera_get_view_x(view)
