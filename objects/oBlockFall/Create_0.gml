@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto(PuzzleRoom)
-//RandomRoom()
+global.fall = false
+yVector = 0
+grv = 0.3

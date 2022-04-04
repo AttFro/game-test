@@ -2,7 +2,7 @@
 //helpful for friction timer
 helpfulTimer = false
 //how many pixels per frame we want our player to move, orginally 20
-xSpeed = 1;
+xSpeed = 0.5;
 
 
 
@@ -65,3 +65,6 @@ enteredShip = false
 global.bDir = true
 global.bStay = false
 
+blockHold = false
+global.ButtonMove = false
+blockThrow = false
