@@ -13,6 +13,6 @@ if (global.bDir = false)
 }
 
 yVector = 0
-grv = -6
+grv = -10
 yVector = yVector + grv;
 alarm[0] = room_speed * 1

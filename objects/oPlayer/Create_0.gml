@@ -33,7 +33,7 @@ isInvincible = false;
 hp = 6;
 
 //level timer
-levelTimer = 30;
+levelTimer = 999999;
 
 //Darts left
 Darts = 50;

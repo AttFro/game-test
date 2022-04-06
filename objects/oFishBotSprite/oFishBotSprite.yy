@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sFishbot",
-    "path": "sprites/sFishbot/sFishbot.yy",
+    "name": "Sprite19",
+    "path": "sprites/Sprite19/Sprite19.yy",
   },
   "solid": false,
   "visible": true,

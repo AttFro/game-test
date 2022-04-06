@@ -3,7 +3,7 @@
 
 global.view_width = 1920/2;
 global.view_height = 1080/2;
-
+global.RoomCount = 1
 //window_scale = 3;
 
 //window_set_size(view_width*window_scale,view_height*window_scale);

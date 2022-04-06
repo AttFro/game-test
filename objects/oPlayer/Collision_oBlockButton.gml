@@ -4,11 +4,13 @@ if (blockHold = true) and (keyboard_check_pressed(vk_backspace))
 {
 	blockThrow = true
 	
+	
 }
 
 if (keyboard_check_pressed(vk_backspace)) and (blockHold = false)
 {
 	blockHold = true	
+	blockThrow = false
 }
 
 if (blockHold = true) and (blockThrow = false)

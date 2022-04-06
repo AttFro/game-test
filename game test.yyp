@@ -48,6 +48,7 @@
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":2,},
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":2,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
+    {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},"order":21,},
     {"id":{"name":"RoomCreationCasle","path":"scripts/RoomCreationCasle/RoomCreationCasle.yy",},"order":15,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":4,},
     {"id":{"name":"TestScript","path":"scripts/TestScript/TestScript.yy",},"order":10,},

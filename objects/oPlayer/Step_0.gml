@@ -40,6 +40,10 @@ if (left) and (global.bStay = false)
 {
 	global.bDir = false
 }
+if(!place_meeting(x + xVector, y, oBlockButton))
+{
+	blockHold = false	
+}
 
 
 
