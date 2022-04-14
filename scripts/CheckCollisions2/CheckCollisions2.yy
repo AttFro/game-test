@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "BadMovement",
+  "name": "CheckCollisions2",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -6,7 +6,8 @@ function StatePlayerWalking()
 	
 	//what does the state do?
 	CheckCollisionsX();
-	CheckCollisionsY();
+	CheckCollisionsY();	
+	
 	
 if (right > 0)
 {

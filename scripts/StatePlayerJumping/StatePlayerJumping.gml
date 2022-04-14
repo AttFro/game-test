@@ -10,6 +10,7 @@ function StatePlayerJumping()
 	if (place_meeting(x, y + 1, oWall) and (jump))
 {
 	yVector = jumpForce;
+	
 }
 	//animations for the state
 	
