@@ -45,6 +45,17 @@ if(!place_meeting(x + xVector, y, oBlockButton))
 	blockHold = false	
 }
 
+if (global.istransition = true)
+{
+	global.transitiontimer -= 5/room_speed
+	global.istransition = false
+	
+}
+if (global.transitiontimer <= 0)
+{
+	global.istransition = false
+}
+
 
 
 

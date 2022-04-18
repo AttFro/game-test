@@ -68,3 +68,8 @@ global.bStay = false
 blockHold = false
 global.ButtonMove = false
 blockThrow = false
+//level transitioning timer
+global.transitiontimer = 0
+global.istransition = false
+global.xAxis = 100
+global.yAxis = 0

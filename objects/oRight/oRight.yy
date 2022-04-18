@@ -1,9 +1,12 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sBomb",
+    "path": "sprites/sBomb/sBomb.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
