@@ -15,8 +15,8 @@ xVector = xSpeed * xDirection;
 
 yVector = 0;
 
-//Camera set
-
+//Code stall
+codeStall = true
 
 //Setting gravity
 grv = 0.3;
@@ -47,8 +47,8 @@ helpfulTimer = 0
 AlwaysMove = false
 
 
-//originally 0.94
-xFriction = 1.025
+//originally 1.025
+xFriction = 1.07
 
 enum states
 {
@@ -68,8 +68,9 @@ global.bStay = false
 blockHold = false
 global.ButtonMove = false
 blockThrow = false
-//level transitioning timer
-global.transitiontimer = 0
-global.istransition = false
+//level transitioning tim
 global.xAxis = 100
 global.yAxis = 0
+candothings = true
+//coinArray = [1, 1, 1, 1, 1]
+coinArray[100] = [1]

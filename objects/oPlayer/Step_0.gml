@@ -44,19 +44,12 @@ if(!place_meeting(x + xVector, y, oBlockButton))
 {
 	blockHold = false	
 }
-
-if (global.istransition = true)
+settingCoinArray = 0
+if (settingCoinArray < 200)
 {
-	global.transitiontimer -= 5/room_speed
-	global.istransition = false
-	
+array_set(coinArray, settingCoinArray, 1)
 }
-if (global.transitiontimer <= 0)
-{
-	global.istransition = false
-}
-
-
+settingCoinArray = settingCoinArray + 1
 
 
 
