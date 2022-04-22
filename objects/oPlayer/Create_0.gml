@@ -15,8 +15,8 @@ xVector = xSpeed * xDirection;
 
 yVector = 0;
 
-//Code stall
-codeStall = true
+//angle of character
+imageAngle = 0
 
 //Setting gravity
 grv = 0.3;

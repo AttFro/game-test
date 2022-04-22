@@ -1,8 +1,10 @@
 {
   "resources": [
     {"id":{"name":"StatePlayerWalking","path":"scripts/StatePlayerWalking/StatePlayerWalking.yy",},"order":8,},
+    {"id":{"name":"sMagmaBlock","path":"sprites/sMagmaBlock/sMagmaBlock.yy",},"order":23,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
+    {"id":{"name":"oJungleBlock","path":"objects/oJungleBlock/oJungleBlock.yy",},"order":25,},
     {"id":{"name":"oEnemyFollow","path":"objects/oEnemyFollow/oEnemyFollow.yy",},"order":7,},
     {"id":{"name":"sRope","path":"sprites/sRope/sRope.yy",},"order":18,},
     {"id":{"name":"sTurret","path":"sprites/sTurret/sTurret.yy",},"order":4,},
@@ -69,6 +71,8 @@
     {"id":{"name":"Friction","path":"scripts/Friction/Friction.yy",},"order":5,},
     {"id":{"name":"oFishbot","path":"objects/oFishbot/oFishbot.yy",},"order":12,},
     {"id":{"name":"oDown","path":"objects/oDown/oDown.yy",},"order":2,},
+    {"id":{"name":"sJungleWall","path":"sprites/sJungleWall/sJungleWall.yy",},"order":22,},
+    {"id":{"name":"oMagmaBlock","path":"objects/oMagmaBlock/oMagmaBlock.yy",},"order":26,},
     {"id":{"name":"RoomCreationGrass","path":"scripts/RoomCreationGrass/RoomCreationGrass.yy",},"order":14,},
     {"id":{"name":"sFlag","path":"sprites/sFlag/sFlag.yy",},"order":6,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

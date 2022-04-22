@@ -51,5 +51,7 @@ array_set(coinArray, settingCoinArray, 1)
 }
 settingCoinArray = settingCoinArray + 1
 
+image_angle = imageAngle
+
 
 
