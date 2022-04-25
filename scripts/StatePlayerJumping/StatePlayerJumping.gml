@@ -7,8 +7,9 @@ function StatePlayerJumping()
 	
 	
 	//if we are touching the ground or touching oWall and we press the jump key "jump"
-	if (place_meeting(x, y + 1, oWall) and (jump))
+	if (place_meeting(x, y + 20, oWall) and (jump))
 {
+	//yVector
 	yVector = jumpForce;
 	
 }

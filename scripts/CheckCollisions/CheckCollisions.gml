@@ -27,22 +27,24 @@ function CheckCollisionsY()
 {
 	
 	CheckInputs();
-	yVector = yVector + grv;
+	yVector2 = yVector2 + grv;
+	yVector = yVector + 20//grv;
+
 		if(place_meeting(x, y + yVector, oWall)) //or (place_meeting(x, y + yVector, oBlockFall))
 	{
 		//check one pixel to the bottom or top of us untill we collide with oWall
 		// ! means "not"
 		//"sign" is going to return a postive or negative sign for a value (-1, 1)
 		//sign(yVector) if yVector is positive it will return a +1, and if its negitive it will return a -1
-		while(!place_meeting(x, y + sign(yVector), oWall)) //or (!place_meeting(x, y + sign(yVector), oBlockFall))
-		{
+		//while(!place_meeting(x, y + sign(yVector), oWall)) //or (!place_meeting(x, y + sign(yVector), oBlockFall))
+		//{
 		//only move one pixel at a time till you hit a wall
-		y = y + sign(yVector)
-		}
+		//y = y// + sign(yVector)
+	//	}
 		yVector = 0;
 	}
 	//otherwise move normal
-	y = y + yVector;
+	y = y + yVector2;
 }
 }
 
