@@ -19,7 +19,19 @@ function PlayerHurt()
 //restat level for player death
 function PlayerDeath()
 {
-	room_restart();
-	//oSpaceship.canKillPlayer = false
-	Darts = 50
+	if (global.xAxis > 100)
+	{
+		Death = 1
+	}
+		if (global.xAxis < 100)
+	{
+		Death = 2
+	}
+			if (global.xAxis = 100)
+	{
+		Death = 3
+	}
+
+
+	
 }

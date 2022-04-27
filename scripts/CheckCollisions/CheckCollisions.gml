@@ -5,11 +5,11 @@ function CheckCollisionsX()
 {
 	CheckInputs();
 	xVector = xSpeed * xDirection;
-	if(place_meeting(x + xVector, y, oWall)) //or (place_meeting(x + xVector, y, oBlockFall))
+	if(place_meeting(x + xVector, y - 10, oWall)) //or (place_meeting(x + xVector, y, oBlockFall))
 	{
 		//check one pixel to the left or right of us untill we collide with oWall
 		// ! means "not"
-		while(!place_meeting(x + xVector, y, oWall)) //or (!place_meeting(x + xVector, y, oBlockFall))
+		while(!place_meeting(x + xVector, y - 10, oWall)) //or (!place_meeting(x + xVector, y, oBlockFall))
 		{
 		//only move one pixel at a time till you hit a wall
 		x = x + xDirection;
@@ -27,8 +27,8 @@ function CheckCollisionsY()
 {
 	
 	CheckInputs();
-	yVector2 = yVector2 + grv;
-	yVector = yVector + 20//grv;
+	
+	yVector = yVector + grv;
 
 		if(place_meeting(x, y + yVector, oWall)) //or (place_meeting(x, y + yVector, oBlockFall))
 	{
@@ -36,15 +36,15 @@ function CheckCollisionsY()
 		// ! means "not"
 		//"sign" is going to return a postive or negative sign for a value (-1, 1)
 		//sign(yVector) if yVector is positive it will return a +1, and if its negitive it will return a -1
-		//while(!place_meeting(x, y + sign(yVector), oWall)) //or (!place_meeting(x, y + sign(yVector), oBlockFall))
-		//{
+		while(!place_meeting(x, y + sign(yVector), oWall)) //or (!place_meeting(x, y + sign(yVector), oBlockFall))
+		{
 		//only move one pixel at a time till you hit a wall
-		//y = y// + sign(yVector)
-	//	}
+		y = y + sign(yVector)
+		}
 		yVector = 0;
 	}
 	//otherwise move normal
-	y = y + yVector2;
+	y = y + yVector;
 }
 }
 

@@ -51,7 +51,47 @@ array_set(coinArray, settingCoinArray, 1)
 }
 settingCoinArray = settingCoinArray + 1
 
-image_angle = imageAngle
+image_angle = imageAngle - imageAngle * 2
+
+if (y > 770)
+{
+	PlayerDeath()
+}
+if(Death = 1)
+{
+		global.xAxis = global.xAxis - 1
+		x = 700
+		y = 200
+		room_goto(roomArray[global.xAxis])
+		Death = 0
+		room_restart();
+		Darts = 50
+		hp = 6
+		levelTimer = 99999999
+}
+if(Death = 2)
+{
+		global.xAxis = global.xAxis + 1
+		x = 700
+		y = 200
+		room_goto(roomArray[global.xAxis])
+		Death = 0
+		room_restart();
+		Darts = 50
+		hp = 6
+		levelTimer = 99999999
+}
+if(Death = 3)
+{
+		x = 700
+		y = 200
+		room_goto(roomArray[global.xAxis])
+		Death = 0
+		room_restart();
+		Darts = 50
+		hp = 6
+		levelTimer = 99999999
+}
 
 
 

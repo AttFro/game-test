@@ -5,8 +5,31 @@ function StatePlayerWalking()
 
 	
 	//what does the state do?
+	
 	CheckCollisionsX();
 	CheckCollisionsY();	
+	
+/*	if (RanRoom = Room2)
+	{
+	CheckCollisionsX2();
+	CheckCollisionsY2();	
+	}
+	if (RanRoom = Room3)
+	{
+	CheckCollisionsX3();
+	CheckCollisionsY3();	
+	}
+	if (RanRoom = Room4)
+	{
+	CheckCollisionsX4();
+	CheckCollisionsY4();	
+	}
+	if (RanRoom = Room5)
+	{
+	CheckCollisionsX5();
+	CheckCollisionsY5();	
+	}
+	*/
 	
 	
 if (right > 0)
@@ -17,11 +40,11 @@ if (right > 0)
 		if (xDirection > 0)
 		{
 			xDirection = xDirection * xFriction
-			imageAngle = imageAngle - 0.3
+			imageAngle = xDirection * 2
 		}
 			if (xDirection < 0)
 			{
-				imageAngle = imageAngle + 0.3
+				imageAngle = xDirection * 2
 				xDirection = xDirection / xFriction
 			}
 			
@@ -39,12 +62,12 @@ if (left > 0)
 	{	
 		if(xDirection < 0)
 		{
-			imageAngle = imageAngle + 0.3
+			imageAngle = xDirection * 2
 			xDirection = xDirection * xFriction
 		}
 			if(xDirection > 0)
 			{
-				imageAngle = imageAngle - 0.3
+				imageAngle = xDirection * 2
 				xDirection = xDirection / xFriction
 			}
 			
