@@ -60,8 +60,8 @@ if (y > 770)
 if(Death = 1)
 {
 		global.xAxis = global.xAxis - 1
-		x = 700
-		y = 200
+		x = 60
+		y = 400
 		room_goto(roomArray[global.xAxis])
 		Death = 0
 		room_restart();
@@ -72,9 +72,9 @@ if(Death = 1)
 if(Death = 2)
 {
 		global.xAxis = global.xAxis + 1
-		x = 700
-		y = 200
-		room_goto(roomArray[global.xAxis])
+		x = 1800
+		y = 600
+		
 		Death = 0
 		room_restart();
 		Darts = 50
