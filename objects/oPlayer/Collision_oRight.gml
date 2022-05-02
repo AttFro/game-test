@@ -4,6 +4,7 @@ if (candothings = true)
 {
 alarm[0] = room_speed*8
 global.xAxis = global.xAxis + 1
+RandomRoom()
 }
 if (global.xAxis <= 100) and (candothings = true)
 {
@@ -18,7 +19,7 @@ if (global.xAxis > 100) and (candothings = true)
 	y = 500
 candothings = false
 array_set(coinArray, global.xAxis, 1)
-roomArray[global.xAxis] = room_duplicate(Room1)
+roomArray[global.xAxis] = room_duplicate(RanRoom)
 //array_set(roomArray, global.xAxis, global.xAxis)
 room_goto(roomArray[global.xAxis])
 }

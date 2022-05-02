@@ -19,6 +19,7 @@ function PlayerHurt()
 //restat level for player death
 function PlayerDeath()
 {
+	candothings = true
 	if (global.xAxis > 100)
 	{
 		Death = 1

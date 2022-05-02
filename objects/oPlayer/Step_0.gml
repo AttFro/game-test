@@ -1,12 +1,14 @@
 //code that runs every frame
-if (state == states.walking)
-{
+
+	if (state == states.walking)
+	{
 	StatePlayerWalking();
-}
-else if (state == states.jumping)
-{
+	}
+	else if (state == states.jumping)
+	{
 	StatePlayerJumping();
-}
+	}
+
 
 if (isInvincible)
 {
@@ -51,7 +53,7 @@ array_set(coinArray, settingCoinArray, 1)
 }
 settingCoinArray = settingCoinArray + 1
 
-image_angle = imageAngle - imageAngle * 2
+image_angle = imageAngle - imageAngle * 4
 
 if (y > 770)
 {
@@ -59,10 +61,8 @@ if (y > 770)
 }
 if(Death = 1)
 {
-		global.xAxis = global.xAxis - 1
 		x = 60
 		y = 400
-		room_goto(roomArray[global.xAxis])
 		Death = 0
 		room_restart();
 		Darts = 50
@@ -71,7 +71,6 @@ if(Death = 1)
 }
 if(Death = 2)
 {
-		global.xAxis = global.xAxis + 1
 		x = 1800
 		y = 600
 		
@@ -85,13 +84,13 @@ if(Death = 3)
 {
 		x = 700
 		y = 200
-		room_goto(roomArray[global.xAxis])
 		Death = 0
 		room_restart();
 		Darts = 50
 		hp = 6
 		levelTimer = 99999999
 }
+
 
 
 
