@@ -6,10 +6,11 @@ xSpeed = 0.5;
 
 Death = 0
 
+Ding = 0
 //what direction the player is facing. 1 = right, -1 = left, 0 not moving
 xDirection = 0;
 
-
+Right = 0
 //dierectional movment variables
 xVector = xSpeed * xDirection;
 
