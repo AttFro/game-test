@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-array_set(roomArray, 100, Room1)
+
 if (candothings = true)
 {
 alarm[0] = room_speed*4
@@ -12,6 +12,7 @@ RandomRoom()
 }
 if (global.xAxis >= 100) and (candothings = true)
 {	
+	Ding = Ding - 1
 	room_goto(roomArray[global.xAxis])
 	candothings = false
 x = room_width - 128
