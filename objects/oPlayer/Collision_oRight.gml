@@ -11,13 +11,13 @@ RandomRoom()
 }
 if (global.xAxis <= 100) and (candothings = true)
 {
-	Ding = Ding + 1
+	LDing = LDing + 1
 	candothings = false
 	room_goto(roomArray[global.xAxis])
 	x = 128
 	y = 500
 }
-if (global.xAxis > 100) and (candothings = true) and (Ding = 0)
+if (global.xAxis > 100) and (candothings = true) and (RDing = 0)
 {
 	
 	x = 128
@@ -28,11 +28,11 @@ roomArray[global.xAxis] = room_duplicate(RanRoom)
 //array_set(roomArray, global.xAxis, global.xAxis)
 room_goto(roomArray[global.xAxis])
 }
-if (candothings = true) and (Ding < 0)
+if (candothings = true) and (RDing < 0)
 {
 room_goto(roomArray[global.xAxis])
 candothings = false
 x = 128
 y = 500
-Ding = Ding - 1
+RDing = RDing + 1
 }

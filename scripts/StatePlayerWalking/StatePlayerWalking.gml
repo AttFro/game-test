@@ -40,11 +40,11 @@ if (right > 0)
 		if (xDirection > 0)
 		{
 			xDirection = xDirection * xFriction
-			imageAngle = xDirection * 2
+			imageAngle = xVector*2
 		}
 			if (xDirection < 0)
 			{
-				imageAngle = xDirection * 2
+				imageAngle = xVector*2
 				xDirection = xDirection / xFriction
 			}
 			
@@ -62,12 +62,12 @@ if (left > 0)
 	{	
 		if(xDirection < 0)
 		{
-			imageAngle = xDirection * 2
+			imageAngle = xVector*2
 			xDirection = xDirection * xFriction
 		}
 			if(xDirection > 0)
 			{
-				imageAngle = xDirection * 2
+				imageAngle = xVector*2
 				xDirection = xDirection / xFriction
 			}
 			
