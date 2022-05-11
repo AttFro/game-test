@@ -8,7 +8,8 @@ if (candothings = true)
 alarm[0] = room_speed*4
 global.xAxis = global.xAxis - 1
 RandomRoom()
-
+global.bStay = false
+global.createdObjectID = 0
 }
 if (global.xAxis >= 100) and (candothings = true)
 {	

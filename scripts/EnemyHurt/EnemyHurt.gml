@@ -20,9 +20,10 @@ function EnemyHurt()
 //restat level for player death
 function EnemyDeath()
 {
+	array_push(oHUD.objectsDestroyed, other.objectID);
 	instance_destroy(other);
 	if (random_range(0,10) > 4)
 	{
-		instance_create_layer(other.x, other.y, "Instances", oCoin);	
+		instance_create_layer(other.x, other.y, "MoonRock1", oCoin);	
 	}
 }

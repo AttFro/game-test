@@ -19,6 +19,8 @@ function PlayerHurt()
 //restat level for player death
 function PlayerDeath()
 {
+	//oHUD.objectsDestroyed = [];
+	global.createdObjectID = 0;
 	candothings = true
 	if (global.xAxis > 100)
 	{
