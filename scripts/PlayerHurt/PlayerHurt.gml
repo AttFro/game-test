@@ -19,18 +19,24 @@ function PlayerHurt()
 //restat level for player death
 function PlayerDeath()
 {
+	
 	//oHUD.objectsDestroyed = [];
 	global.createdObjectID = 0;
 	candothings = true
-	if (global.xAxis > 100)
+	if (global.Puzzle = true)
+	{
+		global.PuzzleDeath = true
+		room_restart()
+	}
+	if (global.xAxis > 100) and (global.PuzzleDeath = false)
 	{
 		Death = 1
 	}
-		if (global.xAxis < 100)
+		if (global.xAxis < 100) and (global.PuzzleDeath = false)
 	{
 		Death = 2
 	}
-			if (global.xAxis = 100)
+			if (global.xAxis = 100) and (global.PuzzleDeath = false)
 	{
 		Death = 3
 	}

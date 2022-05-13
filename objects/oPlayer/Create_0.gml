@@ -114,5 +114,7 @@ RDing = 0
 LDing = 0
 TotalShards = 0
 shard = 0
+global.PuzzleDeath = false
+global.Puzzle = false
 
 

@@ -55,10 +55,10 @@ settingCoinArray = settingCoinArray + 1
 
 image_angle = imageAngle - imageAngle * 4
 
-if (y > 770)
-{
-	PlayerDeath()
-}
+//if (y > 770)
+//{
+//	PlayerDeath()
+//}
 if(Death = 1)
 {
 		x = 60

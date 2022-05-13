@@ -13,7 +13,12 @@ if (shard = 2)
 {
 	shard = 0
 }
-if(TotalShards = 10)
+if(TotalShards = 1)
 {
 	room_goto(PuzzleRoom)
+	global.Puzzle = true
+	instance_destroy(oLeft)
+	instance_destroy(oRight)
+	x = 650
+	y = 1300
 }
