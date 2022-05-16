@@ -15,6 +15,8 @@ draw_text(32, 256, "WASD to move");
 draw_text(32, 288, "CapsLock to pick up some blocks");
 draw_text(32, 320, "10 shards required to fight the boss");
 draw_text(32, 352, "You get shards from chests");
+draw_text(32, 400, "Cos: " +string(oRotater.cosNumber));
+draw_text(32, 432, "Sin: " +string(oRotater.sinNumber));
 
 //}
 

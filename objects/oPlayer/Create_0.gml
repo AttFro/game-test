@@ -116,5 +116,5 @@ TotalShards = 0
 shard = 0
 global.PuzzleDeath = false
 global.Puzzle = false
-
+randomize()
 

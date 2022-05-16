@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.bStay = false
+sinNumber = sin(1)
+cosNumber = cos(3)

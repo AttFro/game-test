@@ -17,5 +17,5 @@ if(global.bDir = false)
 	y = y + yVector
 	x = x - 3
 }
-	yVector = yVector + 0.1
+	yVector = yVector + 0.15
 

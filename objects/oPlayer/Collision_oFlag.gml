@@ -4,3 +4,4 @@
 x = 300
 y = 200
 room_goto(BossRoom)
+global.bStay = false

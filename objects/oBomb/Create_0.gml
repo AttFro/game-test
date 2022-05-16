@@ -15,5 +15,5 @@ if (global.bDir = false)
 yVector = 0
 grv = -10
 yVector = yVector + grv;
-alarm[0] = room_speed * 1
+alarm[0] = room_speed * 0.1
 alarm[1] = room_speed * 5

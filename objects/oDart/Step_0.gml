@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(oPlayer.Darts > 0) and instance_number(oEnemyPatrol) > 0 and(isDart)
+/*if(oPlayer.Darts > 0) and instance_number(oSpaceship) > 0 and(isDart)
 {
 if keyboard_check_pressed(vk_shift)
 	{
@@ -15,8 +15,8 @@ if keyboard_check_pressed(vk_shift)
 		}
 	}
 }
-
-if instance_number(oSpaceship) > 0 and instance_number(oEnemyPatrol) <= 0 and(oPlayer.Darts > 0) and(isDart)
+*/
+if instance_number(oSpaceship) > 0 and instance_number(oSpaceship) <= 0 and(oPlayer.Darts > 0) and(isDart)
 {
 	if keyboard_check_pressed(vk_shift)
 	{

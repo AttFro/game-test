@@ -21,4 +21,5 @@ if(TotalShards = 1)
 	instance_destroy(oRight)
 	x = 650
 	y = 1300
+	global.bStay = false
 }
