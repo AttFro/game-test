@@ -3,3 +3,5 @@
 bossHitPoints = 15
 jump = false
 yVector = -10
+jumping = false
+goAlarm = true

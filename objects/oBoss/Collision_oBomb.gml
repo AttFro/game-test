@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+bossHitPoints = bossHitPoints - 1
 if(jump = false)
 {
-bossHitPoints = bossHitPoints - 1
 instance_create_layer(oBoss.x, oBoss.y - 200, "MoonRock1", oSpaceship)
 }
 if(bossHitPoints = 5)

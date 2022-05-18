@@ -13,7 +13,7 @@ if (shard = 2)
 {
 	shard = 0
 }
-if(TotalShards = 1)
+if(TotalShards = 5)
 {
 	room_goto(PuzzleRoom)
 	global.Puzzle = true
