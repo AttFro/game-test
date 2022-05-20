@@ -25,7 +25,7 @@ grv = 0.3;
 jumpForce = -10;
 
 //coin and points
-global.coins = 0;
+global.coins = 500;
 
 //invicibility
 isInvincible = false;
@@ -117,4 +117,5 @@ shard = 0
 global.PuzzleDeath = false
 global.Puzzle = false
 randomize()
-
+global.bombTime = 5
+global.Draw = false
