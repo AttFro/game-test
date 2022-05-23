@@ -12,7 +12,7 @@ draw_text(32, 192, "Shards: " +string(oPlayer.TotalShards));
 //{
 draw_text(32, 224, "Press 1 to throw bomb");
 draw_text(32, 256, "WASD to move");
-draw_text(32, 288, "CapsLock to pick up some blocks");
+draw_text(32, 288, "Backspace to pick up some blocks");
 draw_text(32, 320, "5 shards required to fight the boss");
 draw_text(32, 352, "You get shards from chests");
 if (instance_exists(oRotater))

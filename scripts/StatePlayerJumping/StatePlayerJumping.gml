@@ -14,7 +14,7 @@ function StatePlayerJumping()
 	
 }
 	//animations for the state
-	
+	audio_play_sound(Sound1, 1, false)
 	//conditions for leaving state
 	if(place_meeting(x, y + 1, oWall))
 	{

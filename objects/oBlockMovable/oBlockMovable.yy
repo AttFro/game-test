@@ -3,7 +3,7 @@
     "name": "sNormalBlock",
     "path": "sprites/sNormalBlock/sNormalBlock.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

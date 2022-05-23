@@ -17,3 +17,4 @@ grv = -10
 yVector = yVector + grv;
 alarm[0] = room_speed * global.bombTime
 alarm[1] = room_speed * 5
+audio_play_sound(BombSound, 2, false)
