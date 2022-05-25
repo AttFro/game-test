@@ -5,3 +5,11 @@ jump = false
 yVector = -10
 jumping = false
 goAlarm = true
+if(oPlayer.x > oBoss.x)
+{
+bDir = true
+}
+else
+{
+	bDir = false
+}

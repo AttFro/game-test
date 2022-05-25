@@ -5,7 +5,7 @@
 
 if (candothings = true)
 {
-alarm[0] = room_speed*4
+alarm[0] = room_speed*2.5
 global.xAxis = global.xAxis - 1
 RandomRoom()
 global.bStay = false

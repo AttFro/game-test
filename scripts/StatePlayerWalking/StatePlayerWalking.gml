@@ -52,6 +52,12 @@ if (right > 0)
 		{
 			AlwaysMove = false
 		}
+								if(xDirection > 15)
+			{
+				
+				xDirection = 15
+
+			}
 	}
 }
 
@@ -75,6 +81,12 @@ if (left > 0)
 			if(xDirection > -0.05) and (xDirection < 0.05)
 			{
 				AlwaysMove = false
+
+			}
+						if(xDirection < -15)
+			{
+				
+				xDirection = -15
 
 			}
 		}

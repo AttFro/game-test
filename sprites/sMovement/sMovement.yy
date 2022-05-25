@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 2,
-  "bbox_right": 30,
-  "bbox_top": 1,
-  "bbox_bottom": 31,
+  "bbox_left": 0,
+  "bbox_right": 63,
+  "bbox_top": 0,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a7082da5-c7d6-4ed0-b100-2d150aab6348","path":"sprites/sBomb/sBomb.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a7082da5-c7d6-4ed0-b100-2d150aab6348","path":"sprites/sBomb/sBomb.yy",},"LayerId":{"name":"c9409db8-185e-467b-91ef-2a3f2d867029","path":"sprites/sBomb/sBomb.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBomb","path":"sprites/sBomb/sBomb.yy",},"resourceVersion":"1.0","name":"a7082da5-c7d6-4ed0-b100-2d150aab6348","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7f9f4dc0-e21a-4e5d-9fc6-850afe420ee6","path":"sprites/sMovement/sMovement.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7f9f4dc0-e21a-4e5d-9fc6-850afe420ee6","path":"sprites/sMovement/sMovement.yy",},"LayerId":{"name":"88e05289-da5e-4e0e-a909-00fe5dd5c1a1","path":"sprites/sMovement/sMovement.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sMovement","path":"sprites/sMovement/sMovement.yy",},"resourceVersion":"1.0","name":"7f9f4dc0-e21a-4e5d-9fc6-850afe420ee6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sBomb","path":"sprites/sBomb/sBomb.yy",},
+    "spriteId": {"name":"sMovement","path":"sprites/sMovement/sMovement.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2a80860d-43f8-4fe3-82cd-6f4b0088af15","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a7082da5-c7d6-4ed0-b100-2d150aab6348","path":"sprites/sBomb/sBomb.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c93c8175-b65d-46ba-bada-eae7726e0115","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7f9f4dc0-e21a-4e5d-9fc6-850afe420ee6","path":"sprites/sMovement/sMovement.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sBomb","path":"sprites/sBomb/sBomb.yy",},
+    "parent": {"name":"sMovement","path":"sprites/sMovement/sMovement.yy",},
     "resourceVersion": "1.3",
-    "name": "sBomb",
+    "name": "sMovement",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c9409db8-185e-467b-91ef-2a3f2d867029","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"88e05289-da5e-4e0e-a909-00fe5dd5c1a1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprite.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sBomb",
+  "name": "sMovement",
   "tags": [],
   "resourceType": "GMSprite",
 }

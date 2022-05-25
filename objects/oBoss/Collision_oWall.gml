@@ -11,3 +11,11 @@ if (goAlarm = true)
 alarm[0] = room_speed*2
 goAlarm = false
 }
+if(oPlayer.x > oBoss.x)
+{
+bDir = true
+}
+else
+{
+	bDir = false
+}
